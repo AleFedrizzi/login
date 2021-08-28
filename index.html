@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Formulário de Login - validação</title>
+
+</head>
+<body>
+    <div class="caixa">
+        <header>Formulário de Login</header>
+        <form action="#">
+            <div class="campo email">
+                <div class="input-area">
+                    <input type="text" placeholder="Digite seu email">
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="erro erro-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="erro erro-txt">Email não pode ficar em branco</div>
+            </div>
+            <div class="campo password">
+                <div class="input-area">
+                    <input type="password" placeholder="Digite sua senha">
+                    <i class="icon fas fa-lock"></i>
+                    <i class="erro erro-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="erro erro-txt">Senha não pode ficar em branco</div>
+            </div>
+            <div class="pass-link"><a href="#">Esqueceu a senha?</a></div>
+            <input type="submit" value="Login">
+        </form>
+        <div class="signup-link">Ainda não é membro? <br/> <a href="#">Escreva-se agora?</a></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
